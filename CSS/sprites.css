@@ -1,0 +1,505 @@
+.live-ico, .translate, .benefits3, .comments-green-ico, .benefits4, .folowers-ico, .benefits1, .happy-ico, .triangle, .benefits2, .device-ico, .big-ico, .shoping-ico, .cloud-ico, .drive-ico, .easy-ico, .getup-green-ico, .getup-white-ico, .mail-white-ico, .support-ico, .discount-icon, .multiplatform-ico, .contact-mail-ico, .content-ico1, .data-base-ico, .faq-ico, .getup-w-ico, .more-benefits, .pricing-ico, .security-ico, .tw-w-ico, .arrow-down-white, .learn-ico, .more-black-ico, .more-gren-ico, .more-grey-ico, .more-ico, .search-ico, .tw-white-ico, .content-ico4, .procesing-ico, .start-green-ico, .start-wight-ico, .content-ico2, .comment-ico, .contact-place-ico, .custom-ico2, .custom-ico3, .custom-ico4, .date-ico, .dorian-ico, .google-ico, .instalation-ico, .ok-green-ico, .ok-grey-ico, .reply-ico, .secure-ico, .time-ico, .tw-ico, .arrow-down, .arrow-top, .elem-google-h, .elem-google, .experience-ico, .content-ico3, .elem-twit-h, .elem-twit, .phone-ico, .elem-in-h, .elem-in, .elem-photo-h-ico, .elem-photo-ico, .arrow-down-green, .close-green-ico, .close-white-ico, .custom-ico, .elem-p-h, .elem-p, .facebook-w-ico, .tw-min-ico, .usab-ico, .work-ico, .like-ico, .arrow-left-green, .arrow-right-green, .facebook-ico, .elem-facebook-h, .elem-facebook, .facebook-min-ico, .min-arrow-green-left, .min-arrow-green, .min-arrow-white {
+    display: inline-block;
+    background: url('../Images/sprite.png') no-repeat;
+    text-indent: -9999px;
+    text-align: left
+}
+.live-ico {
+    background-position: 0 0;
+    width: 66px;
+    height: 66px
+}
+.translate {
+    background-position: 0 -66px;
+    width: 64px;
+    height: 39px
+}
+.benefits3 {
+    background-position: 0 -105px;
+    width: 61px;
+    height: 57px
+}
+.comments-green-ico {
+    background-position: 0 -162px;
+    width: 61px;
+    height: 57px
+}
+.benefits4 {
+    background-position: 0 -219px;
+    width: 60px;
+    height: 51px
+}
+.folowers-ico {
+    background-position: 0 -270px;
+    width: 55px;
+    height: 53px
+}
+.benefits1 {
+    background-position: 0 -323px;
+    width: 52px;
+    height: 57px
+}
+.happy-ico {
+    background-position: 0 -380px;
+    width: 52px;
+    height: 57px
+}
+.triangle {
+    background-position: 0 -437px;
+    width: 44px;
+    height: 57px
+}
+.benefits2 {
+    background-position: 0 -494px;
+    width: 43px;
+    height: 57px
+}
+.device-ico {
+    background-position: 0 -551px;
+    width: 43px;
+    height: 57px
+}
+.big-ico {
+    background-position: 0 -608px;
+    width: 33px;
+    height: 28px
+}
+.shoping-ico {
+    background-position: -33px -608px;
+    width: 33px;
+    height: 31px
+}
+.cloud-ico {
+    background-position: 0 -636px;
+    width: 32px;
+    height: 23px
+}
+.drive-ico {
+    background-position: -32px -639px;
+    width: 32px;
+    height: 23px
+}
+.easy-ico {
+    background-position: 0 -659px;
+    width: 32px;
+    height: 32px
+}
+.getup-green-ico {
+    background-position: -32px -662px;
+    width: 32px;
+    height: 20px
+}
+.getup-white-ico {
+    background-position: -32px -682px;
+    width: 32px;
+    height: 20px
+}
+.mail-white-ico {
+    background-position: 0 -691px;
+    width: 32px;
+    height: 21px
+}
+.support-ico {
+    background-position: -32px -702px;
+    width: 32px;
+    height: 32px
+}
+.discount-icon {
+    background-position: 0 -712px;
+    width: 27px;
+    height: 25px
+}
+.multiplatform-ico {
+    background-position: -27px -734px;
+    width: 25px;
+    height: 25px
+}
+.contact-mail-ico {
+    background-position: 0 -737px;
+    width: 24px;
+    height: 17px
+}
+.content-ico1 {
+    background-position: 0 -754px;
+    width: 24px;
+    height: 17px
+}
+.data-base-ico {
+    background-position: -24px -759px;
+    width: 24px;
+    height: 15px
+}
+.faq-ico {
+    background-position: 0 -771px;
+    width: 24px;
+    height: 26px
+}
+.getup-w-ico {
+    background-position: -24px -774px;
+    width: 24px;
+    height: 24px
+}
+.more-benefits {
+    background-position: 0 -797px;
+    width: 24px;
+    height: 24px
+}
+.pricing-ico {
+    background-position: -24px -798px;
+    width: 24px;
+    height: 24px
+}
+.security-ico {
+    background-position: 0 -821px;
+    width: 24px;
+    height: 32px
+}
+.tw-w-ico {
+    background-position: -24px -822px;
+    width: 24px;
+    height: 20px
+}
+.arrow-down-white {
+    background-position: -43px -494px;
+    width: 23px;
+    height: 15px
+}
+.learn-ico {
+    background-position: -44px -437px;
+    width: 20px;
+    height: 20px
+}
+.more-black-ico {
+    background-position: -44px -457px;
+    width: 20px;
+    height: 20px
+}
+.more-gren-ico {
+    background-position: -43px -509px;
+    width: 20px;
+    height: 20px
+}
+.more-grey-ico {
+    background-position: -43px -529px;
+    width: 20px;
+    height: 20px
+}
+.more-ico {
+    background-position: -43px -549px;
+    width: 20px;
+    height: 20px
+}
+.search-ico {
+    background-position: -43px -569px;
+    width: 20px;
+    height: 20px
+}
+.tw-white-ico {
+    background-position: -43px -589px;
+    width: 20px;
+    height: 18px
+}
+.content-ico4 {
+    background-position: -24px -842px;
+    width: 19px;
+    height: 18px
+}
+.procesing-ico {
+    background-position: -43px -842px;
+    width: 19px;
+    height: 24px
+}
+.start-green-ico {
+    background-position: 0 -853px;
+    width: 19px;
+    height: 24px
+}
+.start-wight-ico {
+    background-position: -19px -860px;
+    width: 19px;
+    height: 24px
+}
+.content-ico2 {
+    background-position: -48px -759px;
+    width: 17px;
+    height: 19px
+}
+.comment-ico {
+    background-position: -44px -477px;
+    width: 16px;
+    height: 14px
+}
+.contact-place-ico {
+    background-position: -48px -778px;
+    width: 16px;
+    height: 20px
+}
+.custom-ico2 {
+    background-position: -48px -798px;
+    width: 16px;
+    height: 11px
+}
+.custom-ico3 {
+    background-position: -48px -809px;
+    width: 16px;
+    height: 11px
+}
+.custom-ico4 {
+    background-position: -48px -820px;
+    width: 16px;
+    height: 16px
+}
+.date-ico {
+    background-position: -38px -866px;
+    width: 16px;
+    height: 16px
+}
+.dorian-ico {
+    background-position: 0 -877px;
+    width: 16px;
+    height: 16px
+}
+.google-ico {
+    background-position: -38px -882px;
+    width: 16px;
+    height: 16px
+}
+.instalation-ico {
+    background-position: -16px -884px;
+    width: 16px;
+    height: 16px
+}
+.ok-green-ico {
+    background-position: 0 -893px;
+    width: 16px;
+    height: 12px
+}
+.ok-grey-ico {
+    background-position: -32px -898px;
+    width: 16px;
+    height: 12px
+}
+.reply-ico {
+    background-position: -48px -898px;
+    width: 16px;
+    height: 16px
+}
+.secure-ico {
+    background-position: -16px -900px;
+    width: 16px;
+    height: 20px
+}
+.time-ico {
+    background-position: 0 -905px;
+    width: 16px;
+    height: 16px
+}
+.tw-ico {
+    background-position: -32px -910px;
+    width: 16px;
+    height: 12px
+}
+.arrow-down {
+    background-position: -48px -914px;
+    width: 15px;
+    height: 8px
+}
+.arrow-top {
+    background-position: -16px -920px;
+    width: 15px;
+    height: 8px
+}
+.elem-google-h {
+    background-position: 0 -921px;
+    width: 15px;
+    height: 13px
+}
+.elem-google {
+    background-position: -31px -922px;
+    width: 15px;
+    height: 13px
+}
+.experience-ico {
+    background-position: -46px -922px;
+    width: 15px;
+    height: 24px
+}
+.content-ico3 {
+    background-position: -52px -323px;
+    width: 14px;
+    height: 17px
+}
+.elem-twit-h {
+    background-position: -52px -340px;
+    width: 14px;
+    height: 12px
+}
+.elem-twit {
+    background-position: -52px -352px;
+    width: 14px;
+    height: 12px
+}
+.phone-ico {
+    background-position: -52px -364px;
+    width: 14px;
+    height: 20px
+}
+.elem-in-h {
+    background-position: -52px -384px;
+    width: 13px;
+    height: 13px
+}
+.elem-in {
+    background-position: -52px -397px;
+    width: 13px;
+    height: 13px
+}
+.elem-photo-h-ico {
+    background-position: -52px -410px;
+    width: 13px;
+    height: 14px
+}
+.elem-photo-ico {
+    background-position: -52px -734px;
+    width: 13px;
+    height: 14px
+}
+.arrow-down-green {
+    background-position: -52px -424px;
+    width: 12px;
+    height: 8px
+}
+.close-green-ico {
+    background-position: -54px -866px;
+    width: 12px;
+    height: 12px
+}
+.close-white-ico {
+    background-position: -54px -878px;
+    width: 12px;
+    height: 12px
+}
+.custom-ico {
+    background-position: -15px -928px;
+    width: 12px;
+    height: 16px
+}
+.elem-p-h {
+    background-position: 0 -934px;
+    width: 12px;
+    height: 14px
+}
+.elem-p {
+    background-position: -27px -935px;
+    width: 12px;
+    height: 14px
+}
+.facebook-w-ico {
+    background-position: -12px -944px;
+    width: 12px;
+    height: 24px
+}
+.tw-min-ico {
+    background-position: -52px -748px;
+    width: 12px;
+    height: 10px
+}
+.usab-ico {
+    background-position: -39px -946px;
+    width: 12px;
+    height: 16px
+}
+.work-ico {
+    background-position: -51px -946px;
+    width: 12px;
+    height: 20px
+}
+.like-ico {
+    background-position: -55px -270px;
+    width: 10px;
+    height: 10px
+}
+.arrow-left-green {
+    background-position: -55px -280px;
+    width: 8px;
+    height: 15px
+}
+.arrow-right-green {
+    background-position: -55px -295px;
+    width: 8px;
+    height: 15px
+}
+.facebook-ico {
+    background-position: 0 -948px;
+    width: 8px;
+    height: 16px
+}
+.elem-facebook-h {
+    background-position: -24px -949px;
+    width: 7px;
+    height: 14px
+}
+.elem-facebook {
+    background-position: -31px -949px;
+    width: 7px;
+    height: 14px
+}
+.facebook-min-ico {
+    background-position: -61px -105px;
+    width: 5px;
+    height: 10px
+}
+.min-arrow-green-left {
+    background-position: -61px -115px;
+    width: 5px;
+    height: 8px
+}
+.min-arrow-green {
+    background-position: -61px -123px;
+    width: 5px;
+    height: 8px
+}
+.min-arrow-white {
+    background-position: -61px -131px;
+    width: 5px;
+    height: 8px
+}
+.icon-mod1, .icon-mod2, .icon-mod3, .icon-mod4, .icon-mod4h, .icon-mod5, .icon-mod6 {
+    display: inline-block;
+    background: url('../img/sprite-icon.png') no-repeat
+}
+.icon-mod1 {
+    background-position: 0 0;
+    width: 32px;
+    height: 32px
+}
+.icon-mod2 {
+    background-position: 0 -32px;
+    width: 32px;
+    height: 32px
+}
+.icon-mod3 {
+    background-position: 0 -64px;
+    width: 32px;
+    height: 23px
+}
+.icon-mod4 {
+    background-position: 0 -87px;
+    width: 32px;
+    height: 27px
+}
+.icon-mod4h {
+    background-position: 0 -114px;
+    width: 32px;
+    height: 27px
+}
+.icon-mod5 {
+    background-position: 0 -141px;
+    width: 32px;
+    height: 23px
+}
+.icon-mod6 {
+    background-position: 0 -164px;
+    width: 24px;
+    height: 32px
+}
