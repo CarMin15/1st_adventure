@@ -35,9 +35,12 @@ section > .container > h1:first-child, section > .container > h2:first-child, se
 	background-color: rgba(100, 100, 100, 0.6);
 }
 
-
 .title {
 	margin: 50px;
+}
+
+#topmenu {
+	padding-top: 15px;
 }
 
 #discover {
@@ -55,7 +58,7 @@ section > .container > h1:first-child, section > .container > h2:first-child, se
 #contacto {
 	padding: 10px 0;
 	margin: 0;
-	font-size: 1em;
+	font-size: 0.8em;
 	text-align: right;
 	color: #fff;
 }
@@ -102,6 +105,8 @@ ul.submenu {
   line-height: 1.9;
   width: 156px;
   z-index: 1;
+  border: 2px solid #EEFAB9;
+  border-radius: 5px;
 }
 
 
@@ -256,17 +261,14 @@ MOUSE OVER BUTTONS & MENUS
 }
 
 ul.submenu > li:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #EEFAB9;
 }
 
 a:hover, button:hover, .submenu li:hover {
 	cursor: pointer;
 }
 
-/** hacerlo con js: if green background > white / else > green/
-/*#pricing > ul.plans {
-	background-color: 
-}*/
 
 
 /********* BODY ***********/
@@ -715,6 +717,19 @@ ul.plans > li > .plan > p {
 	padding: 35px 0 20px;
 	color: grey;
 }
+
+ul.plans > li:hover {
+	background: #56cc91;
+}
+
+ul.plans > li > .plan:hover > em {
+	background: #FFF;
+}
+ul.plans > li > .plan:hover > button {
+	background: #FFF;
+	color: #56cc91;
+}
+
 /********* SECTION: CUSTOMERS ***********/
 
 #customers {
