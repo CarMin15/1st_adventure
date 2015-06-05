@@ -3,14 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<title>My 1st project - Template</title>
-	<link rel="stylesheet" href="CSS/sprites.css">
-	<link rel="stylesheet" type="text/css" href="CSS/main.css">
+	<link rel="stylesheet" href="../CSS/sprites.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/main.css">
 </head>
 <body>
 	<div>
 		<div class="slide" style="width: 1365px; background-image: url(http://cdn.templatation.com/Site-templates/webapp/img/home-bg.jpg)">
 			<div class="layer">
-				<header class="arriba">
+				<header class="arriba">	
 					<nav id="topmenu">
 							<ul id="contacto">
 								<li><a href="sign.html">SIGN IN</a></li>
@@ -18,13 +18,24 @@
 								<li><a href="contact.html">CONTACT</a></li>
 							</ul>
 							<ul id="pages">
-								<li><a href="home.html" class="active">Home</a></li>
-								<li><a href="allpages.html">All Pages</a></li>
-								<li><a href="testimonials.html">Testimonials</a></li>
-								<li><a href="pricing.html">Pricing</a></li>
-								<li><a href="blog.html">Blog</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="tour.html">Tour</a></li>
+								<li><a href="../index.html">Home</a></li>
+								<li>
+									<a href="allpages.html">ALL PAGES</a>
+									<ul class="submenu">
+										<li>Index</li>
+										<li>Testimonials</li>
+										<li>Pricing</li>
+										<li>Blog</li>
+										<li>Elements</li>
+										<li>Tour</li>
+										<li>Contact</li>
+									</ul>
+								</li>
+								<li><a href="testimonials.html" class="active">TESTIMONIALS</a></li>
+								<li><a href="pricing.html">PRICING</a></li>
+								<li><a href="blog.html">BLOG</a></li>
+								<li><a href="elements.html">ELEMENTS</a></li>
+								<li><a href="tour.html">TOURS</a></li>
 							</ul>
 					</nav>
 
@@ -32,10 +43,16 @@
 						<h1 class="title">WebApp <strong>The Best</strong> Mobile App!</h1>
 						<h2 class="subtitle">cum sociis natoque cum sociis natoque</h2>
 						
-						<div class=""></div>
-						
-						<button class="green_white">LEARN MORE</button>
-						<button class="white_green">GET APP NOW</button>
+						<div class="btn_discover">
+							<button class="green_white btn_ico" id="white_triangle">
+								<i class="ico learn-ico"></i>
+								LEARN MORE
+							</button>
+							<button class="white_green btn_ico">
+								<i class="ico getup-green-ico"></i>
+								GET APP NOW
+							</button>
+						</div>
 
 						<div>
 							<img class="hidden-xs" src="http://cdn.templatation.com/Site-templates/webapp/img/slide.png" alt="webapp">
@@ -53,8 +70,8 @@
 		</div>
 		<section id="App">
 			<div class="container">
-				<h3>The Most Trending App</h3>
-				<h4>Sed diam tortor, fringilla ut metus vitae, facilisis maximus ipsum elementum non augue ut vitae lorem sagittis luctus convallis convallis id lobortis tortor tempor</h4>
+				<h3 class="slideUp">The Most Trending App</h3>
+				<h4 class="slideUp">Sed diam tortor, fringilla ut metus vitae, facilisis maximus ipsum elementum non augue ut vitae lorem sagittis luctus convallis convallis id lobortis tortor tempor</h4>
 				
 				<div class="phones_text">
 					<div class="columnas">
@@ -115,49 +132,51 @@
 		</section>
 
 		<section id="Core_Benefits">
-			<div class="menu_green_circles">
-				<h3>Core Benefits of WebApp</h3>
-				<h4>Donec leo mauris, lobortis sed nibh quis, pharetra rutrum felis. Praesent dolor nunc, faucibus in ante vel dignissim commodo erat. Lobortis sed nibh quis, pharetra rutrum felis. Praesent dolor nunc, faucibus in ante vel dignissim commodo erat</h4>
+			<div class="container">
+				<div class="menu_green_circles container">
+					<h3>Core Benefits of WebApp</h3>
+					<h4>Donec leo mauris, lobortis sed nibh quis, pharetra rutrum felis. Praesent dolor nunc, faucibus in ante vel dignissim commodo erat. Lobortis sed nibh quis, pharetra rutrum felis. Praesent dolor nunc, faucibus in ante vel dignissim commodo erat</h4>
 
-				<div id="benefits">
-					<div>
-						<div class="benefit">
-							<div class="benefits-icon cup">
-								<i class="benefits1"></i>
+					<div id="benefits">
+						<div>
+							<div class="benefit">
+								<div class="benefits-icon cup">
+									<i class="benefits1"></i>
+								</div>
+								<h8 class="benefit_name">CUSTOMER SERVICE</h8>
+								<p>Fusce congue, nibh ut varius volutpat, nisi dolor congue metus, id eleifend turpis</p>
 							</div>
-							<h8 class="benefit_name">CUSTOMER SERVICE</h8>
-							<p>Fusce congue, nibh ut varius volutpat, nisi dolor congue metus, id eleifend turpis</p>
-						</div>
-						<div class="benefit">
-							<div class="benefits-icon phone">
-								<i class="benefits2"></i>
+							<div class="benefit">
+								<div class="benefits-icon phone">
+									<i class="benefits2"></i>
+								</div>
+								<h8 class="benefit_name">EASY TO USE</h8>
+								<p>
+									Fusce congue, nibh ut varius volutpat, nisi dolor congue metus, id eleifend turpis
+								</p>
 							</div>
-							<h8 class="benefit_name">EASY TO USE</h8>
-							<p>
-								Fusce congue, nibh ut varius volutpat, nisi dolor congue metus, id eleifend turpis
-							</p>
-						</div>
-						<div class="benefit">
-							<div class="benefits-icon bubble">
-								<i class="benefits3"></i>
+							<div class="benefit">
+								<div class="benefits-icon bubble">
+									<i class="benefits3"></i>
+								</div>
+								<h8 class="benefit_name">SOCIAL CONNECT</h8>
+								<p>Fusce congue, nibh ut varius volutpat, nisi dolor congue metus, id eleifend turpis</p>
 							</div>
-							<h8 class="benefit_name">SOCIAL CONNECT</h8>
-							<p>Fusce congue, nibh ut varius volutpat, nisi dolor congue metus, id eleifend turpis</p>
-						</div>
-						<div class="benefit">
-							<div class="benefits-icon dossier">
-							<i class="benefits4"></i>
+							<div class="benefit">
+								<div class="benefits-icon dossier">
+								<i class="benefits4"></i>
+								</div>
+								<h8 class="benefit_name">MANY APPLICATIONS</h8>
+								<p>Fusce congue, nibh ut varius volutpat, nisi dolor congue metus, id eleifend turpis</p>
 							</div>
-							<h8 class="benefit_name">MANY APPLICATIONS</h8>
-							<p>Fusce congue, nibh ut varius volutpat, nisi dolor congue metus, id eleifend turpis</p>
 						</div>
+						<br style="clear: both;" />
 					</div>
-					<br style="clear: both;" />
+				</div>	
+				<div class="button_under_green_circles">
+					<button class="green_white">MORE BENEFITS FOR YOU</button>
 				</div>
 			</div>	
-			<div class="button_under_green_circles">
-				<button class="green_white">MORE BENEFITS FOR YOU</button>
-			</div>
 		</section>
 
 		<section id="video">
@@ -317,22 +336,84 @@
 		</section>
 
 		<section id="subscribe">
-			<div>
+			<div class="container">
 				<h3>Subscribe To <strong>Our Updates</strong></h3>
 				<p>Suspendisse a arcu efficitur erat auctor viverra. Morbi molestie arcu vitae dolor mollis iaculis vulputate at ante auctor, bibendum dapibus augue</p>
-			</div>
-			<div class="form_subscribe">
-				<input class="subscribe-email" type="email">
-				<button class="btn_subscribe" type="submit">
-					<i class="mail-white-ico mail-ico"></i>
-					 SUBSCRIBE
-				</button>
+			
+				<div class="form_subscribe">
+					<input class="subscribe-email" type="email" placeholder="Enter your email">
+					<button class="btn_subscribe" type="submit">
+						<i class="mail-white-ico mail-ico"></i>
+						 SUBSCRIBE
+					</button>
+				</div>
 			</div>		
 		</section>
 
 		<section id="map"></section>
 
-		<footer></footer>
+		<footer>
+			<div class="container">
+				<div class="table">
+					<div>
+						<div>
+							<h3>Text Widget</h3>
+
+							Donec non turpis sit amet lacus egestas pulvinar sed vitae urna. Etiam et nulla non justo lobortis volutpat. Nulla ornare, justo vitae lacinia dignissim, lectus magna pellentesque velit, eu posuere neque lacus nec nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla tincidunt gravida malesuada.
+						</div>
+						<div>
+							<h3>Our Product</h3>
+							
+							<ul>
+								<li>FEATURE TOUR</li>
+								<li>VIDEO TOUR</li>
+								<li>PRICING</li>
+								<li>FREE TRIAL</li>
+								<li>AFFILIATE PROGRAM</li>
+								<li>TESTIMONIALS</li>
+							</ul>
+						</div>
+						<div>
+							<h3>Support</h3>
+							<ul>
+								<li>WEBINARS</li>
+								<li>HELP CENTER</li>
+								<li>BLOG</li>
+								<li>SECURITY</li>
+								<li>API</li>
+								<li>CONTACT</li>
+							</ul>
+						</div>
+						<div class="icons">
+							<div>
+								<h3>Contact Us</h3>
+								<div>
+									<span id="test_before">789 8th Avenue, Los Angeles</span>
+								</div>
+								<div>
+									<span id="test_before2">support@xyz.com</span>
+								</div>
+								<div id="test_before3">
+									<div>
+										<span id="phone_number">1.777-666-5555</span>
+										<span id="phone_number">1.444-333-2222</span>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div>
+									<a href="wwww.facebook.com">
+										<i></i>
+									</a>
+								</div>
+								<div></div>
+								<div></div>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</div>
 </body>
 </html>
