@@ -105,7 +105,7 @@ ul.submenu {
   line-height: 1.9;
   width: 156px;
   z-index: 1;
-  border: 2px solid #EEFAB9;
+  border: 1.5px solid #EEFAB9;
   border-radius: 5px;
 }
 
@@ -200,12 +200,6 @@ green / white buttons
   height: 20px;
 }
 
-/*.btn_discover > .learn-ico:before {
-  background-position: -43px -509px;
-  width: 20px;
-  height: 20px;
-  opacity: 1;
-}*/
 
 .btn_discover > .learn-ico:after {
   background-position: -43px -549px;
@@ -663,7 +657,7 @@ a:hover, button:hover, .submenu li:hover {
 }
 
 
-	/************ IMAGE Column ****************************/
+/************ IMAGE Column ****************************/
 
 .column_center {
 	width: 50%;
@@ -694,8 +688,7 @@ a:hover, button:hover, .submenu li:hover {
 	right: 60px;
 }
 
-/********************
- SECTION: PRICING ***********/
+/******************** SECTION: PRICING ***********/
 
 #pricing {
 	padding: 75px 0;
@@ -788,6 +781,7 @@ ul.plans > li > .plan:hover > button {
 	display: block;
 	margin: 50px auto;
 }
+
 /********* SECTION: MENU SEPARACION ***********/
 
 #menu_separacion {
@@ -796,7 +790,7 @@ ul.plans > li > .plan:hover > button {
 
 #menu_separacion .container {
 	margin: 0;
-	width: 1366px;
+	width: 100%;
 	text-align: center;
 }
 
