@@ -10,7 +10,7 @@ Skills practised:
 - CSS transitions
 - parallax scrolling
 
-A demo of the project is hosted here: http://maria.commitd.io/1st_adventure/
+A demo of the project is hosted here: http://www.mariarosacarrion.com/1st_adventure
 
 All feedbacks are welcome and appreciated! :)
 You can contact me at: maria.rosa.carrion@gmail.com
