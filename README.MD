@@ -9,6 +9,7 @@ Skills practised:
 - dynamic pseudo-classes
 - CSS transitions
 - parallax scrolling
+- Alert message
 
 A demo of the project is hosted here: http://www.mariarosacarrion.com/1st_adventure
 
